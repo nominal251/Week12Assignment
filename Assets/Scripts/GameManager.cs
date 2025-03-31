@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         InvokeRepeating("CreateEnemyOne", 1, 2);
-        InvokeRepeating("CreateEnemyTwo", 1, 2);
+        InvokeRepeating("CreateEnemyTwo", 1, 3);
     }
 
     // Update is called once per frame
