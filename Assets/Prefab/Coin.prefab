@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -3868323995582640211}
   - component: {fileID: 201179378626213400}
   - component: {fileID: 4386124876349485297}
-  - component: {fileID: -3251071419775156180}
+  - component: {fileID: 1561291301123370092}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Untagged
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: b40d9adc88f58b04f87c1e63c07840f8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e12668a686a9c1443b8ebb7106b4bcfd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -138,7 +138,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.56, y: 2.56}
+    oldSize: {x: 0.988, y: 0.992}
     newSize: {x: 2.56, y: 2.56}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -174,7 +174,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-3251071419775156180
+--- !u!114 &1561291301123370092
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -183,7 +183,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8729755512266785908}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ed70b92885deda43a25c386d6b3788d, type: 3}
+  m_Script: {fileID: 11500000, guid: b1efff15fdee52c4a92edd5e524ff063, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionPrefab: {fileID: 1886710396827344234, guid: e8e63456aa1d9d240ab38a0453e59388, type: 3}
+  explosionPrefab: {fileID: 0}
